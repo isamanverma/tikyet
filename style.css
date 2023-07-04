@@ -1,0 +1,77 @@
+body {
+    height: 100vh;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/8a8261158934889.63c8828c646c5.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    display: grid;
+    gap: 3em;
+    place-content: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend';
+    font-size: 1.5em;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Poiret One';
+}
+
+header h2 {
+    text-align: center;
+    font-size: 1em;
+
+}
+
+.container {
+    width: 30em;
+}
+
+.container ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container ol>li {
+    color: whitesmoke;
+}
+
+#add-item-box {
+    width: 50%;
+}
+
+.input {
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.input input {
+    font-size: 0.6em;
+    padding: 1em;
+    border-radius: 2em;
+    border: none;
+    cursor: pointer;
+}
+
+#print-tasks {
+    display: flex;
+    justify-content: center;
+}
+
+#print-tasks button {
+    font-size: 0.6em;
+    padding: 1em;
+    border-radius: 2em;
+    border: none;
+
+    cursor: pointer;
+    width: 30%;
+}
